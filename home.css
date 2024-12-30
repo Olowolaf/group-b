@@ -1,0 +1,459 @@
+body{
+    padding: 50px 100px;
+}
+.sbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 0px 0px;
+    width: 450px;
+    height: 70px;
+    margin-left: 500px;
+}
+.stext{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border-radius: 60px;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+.sbtn{
+    position: absolute;
+    height: 70px;
+    width: 60px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 350px;
+    background-color: black;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.sbtn:hover{
+    background-color: #2790ED
+}
+.cmenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cmenunav ul{
+    list-style: none;
+    display: flex;
+    padding: 0 25px;
+    gap: 50px;
+}
+.cmenunav li a{
+    text-decoration: none;
+    color: black;
+}
+.secwelcm{
+    height: 700px;
+}
+.cmenunav li a h2:hover{
+    color: #2790ED
+}
+.secbenefits{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+}
+.bene{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.benetxt{
+    font-size: 20px;
+}
+.find{
+    color: white;
+    font-size: 25px;
+    background-color: red;
+}
+.unprice{
+    font-size: 65px;
+}
+.dissav{
+    font-size: 25px;
+}
+.unbeatbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    height: 65px;
+    padding: 0 55px;
+    background-color: #2790ED;
+}
+.unbeatbtn:hover{
+    background-color: white;
+}
+.unbeatbtn p a{
+    text-decoration: none;
+    list-style: none;
+}
+.statshp{
+    font-size: 20px;
+    color: white;
+}
+.statshp:hover{
+    color: #2790ED;
+}
+.secwelcm{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.prod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+.tpp{
+    font-size: 40px;
+}
+.tpicks{
+    height: 800px;
+}
+.prodsale{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.salep{
+    width: 350px;
+    height: 430px;
+    display: block;
+    box-shadow: 0px 5px 5px 1px #f7f1f1;
+    padding: 20px;
+}
+.alin{
+    text-decoration: none;
+}
+.sp{
+    font-size: 30px;
+    margin: 25px;
+    color: #2790ED;
+}
+.texsale2{
+    font-size: 18px;
+    color: black;
+    margin-left: 20px;
+}
+.texsale1{
+    font-size: 18px;
+    color: black;
+    margin: 20px;
+    padding-top: 70px;
+}
+.sp3{
+    font-size: 30px;
+    margin-left: 20px;
+    color: #2790ED;
+}
+.texsale3{
+    font-size: 18px;
+    color: black;
+    margin: 25px;
+    padding-top: 50px;
+}
+.sp1{
+    font-size: 30px;
+    color: #2790ED;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+.texsale4{
+    color: black;
+    font-size: 18px;
+    margin: 25px;
+}
+.sp2{
+    font-size: 30px;
+    color: #2790ED;
+    margin: 25px;
+    padding-bottom: 60px;
+}
+.sa{
+    color: #f7f1f1;
+    font-size: 20px;
+    background-color: red;
+    width: 80px;
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.more{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    height: 60px;
+    width: 300px;
+    border: none;
+    background-color: #2790ED;
+}
+.seem{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 200px;
+}
+.smore{
+    color: white;
+    font-size: 20px;
+}
+.more p a{
+    text-decoration: none;
+} 
+.more:hover{
+    background-color: white;
+}
+.smore:hover{
+    color: #2790ED;
+}
+.category{
+    align-items: center;
+    justify-content: center;
+}
+.cat1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cattex{
+    font-size: 40px;
+}
+.scate{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 40px;
+    justify-content: center;
+}
+.com{
+    align-items: center;
+    justify-content: center;
+}
+.comput{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+}
+.comput1{
+    font-size: 30px;
+    padding: 40px;
+}
+.ph{
+    align-items: center;
+    justify-content: center;
+}
+.ph1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+}
+.mob{
+    font-size: 30px;
+    padding: 40px;
+}
+.tab{
+    align-self: center;
+    justify-content: center;
+}
+.tab1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+}
+.tab2{
+    font-size: 30px;
+    padding: 40px;
+}
+.cam{
+    align-items: center;
+    justify-content: center;
+}
+.cam1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+}
+.cam2{
+    font-size: 30px;
+    padding: 40px;
+}
+.spea{
+    align-items: center;
+    justify-content: center;
+}
+.spea1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+}
+.spea2{
+    font-size: 30px;
+    padding: 40px;
+}
+.tvv{
+    align-items: center;
+    justify-content: center;
+}
+.tvv1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.tvv2{
+    font-size: 30px;
+    align-items: center;
+}
+.weara{
+    align-items: center;
+    justify-content: center;
+}
+.weara1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.weara2{
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+}
+.head{
+    align-items: center;
+    justify-content: center;
+}
+.head1{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(237, 234, 230);
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.head2{
+    font-size: 30px;
+    align-items: center;
+    padding: 35px;
+}
+.hear{
+    text-decoration: none;
+    color: black;
+}
+.hd{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hotd{
+    font-size: 40px;
+}
+.hotdeal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spam{
+    font-size: 18px;
+    color: black;
+    margin: 0px;
+}
+.spp{
+    font-size: 30px;
+    padding: 0px;
+    color: #2790ED;
+}
+.deal{
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    display: block;
+    box-shadow: 0px 5px 5px 1px #f7f1f1;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    width: 400px;
+}
+.shop{
+    width: 400px;
+}
+.sh{
+    text-align: center;
+    font-size: 30px;
+    margin: 40px;
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.shop a:hover{
+    color: #2790ED;
+}
+.nunav ul{
+    list-style: none;
+}
+.she{
+    font-size: 30px;
+}
+.kn{
+    font-size: 20px;
+}
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cc{
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loginf">
+        <h2>Login</h2>
+        <form action="/login" method="post" id="loginform">
+            <div class="emuspa">
+                <label for="emailorusername">Email or Username</label>
+                <input type="text" id="emailorusername" name="emailorusername" placeholder="Enter your Email or Username" required>
+            </div>
+            <div class="emuspa">
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password" placeholder="Enter your Password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="link">
+            <p>Don't have an account? <a href="/register">Create One</a></p>
+        </div>
+        <p class="error" id="invalidEmailorPassword "></p>
+    </div>
+    
+</body>
+</html>

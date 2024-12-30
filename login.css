@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 100px;
+}
+.loginf{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 20px;
+}
+button{
+    width: 90%;
+    padding: 8px;
+    margin-left: 20px;
+    background-color: #2790ED;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(15, 80, 80);
+}
+.emuspa{
+    margin-top: 20px;
+}
+.error{
+    color: red;
+    font-size: 16px;
+}
+.link{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.link a{
+    text-decoration: none;
+}

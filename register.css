@@ -1,0 +1,67 @@
+body{
+    padding: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px;
+    width: 400px;
+    max-width: 100%;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 20px;
+}
+button{
+    width: 100%;
+    padding: 12px;
+    margin-left: 15px;
+    background-color: #2790ED;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(15, 80, 80);
+}
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.success{
+    color: greenyellow;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.formreg{
+    margin-bottom: 20px;
+}
+.formreggend{
+    display: flex;
+    justify-content: space-between;
+}
+.formreggend input{
+    width: auto;
+}
+.formregfile{
+    margin: 10px 0;
+}

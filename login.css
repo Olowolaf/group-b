@@ -30,6 +30,7 @@ button{
     width: 90%;
     padding: 8px;
     margin-left: 20px;
+    margin-top: 40px;
     background-color: #2790ED;
     color: white;
     border: none;
@@ -50,7 +51,7 @@ button:hover{
 .link{
     display: block;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 .link a{
     text-decoration: none;
